@@ -17,7 +17,7 @@ body {
     width: 400px;
     padding: 50px;
     margin: auto;
-    margin-top: 40%;
+    margin-top: 100px;
     border-radius: 20px;
 }
 
@@ -87,4 +87,13 @@ img {
 .dp {
     text-align: center;
 
+}
+
+@media (max-width: 600px) {
+  .form{
+    width: fit-content;
+  }
+  p{
+    font-size: 8px;
+  }
 }
